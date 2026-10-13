@@ -1,0 +1,16 @@
+.related-grid{display:grid;grid-template-columns:repeat(3,368px);gap:24px;margin-top:47px}.related-card{height:480px;padding:25px 20px 29px;background:white;border:1px solid var(--border);border-radius:12px;position:relative}.related-card>.badge{background:#e6f4f2;font-size:14px;height:30px;width:164px;justify-content:flex-start}.related-card h2{font-size:23px;line-height:28px;margin-top:19px}.related-card .description{font-size:17px;line-height:27.2px;max-width:250px;margin-top:22px}.related-card h3{font-size:17px;font-weight:700;position:absolute;top:222px}.related-card .job-description{position:absolute;top:263px;font-size:15px;color:#61797f}.related-card h3.reason{top:305px;font-size:18px}.related-card .button{position:absolute;bottom:29px;left:20px;width:328px;justify-content:flex-start}.related-actions{display:flex;justify-content:space-between;margin-top:42px}.related-actions .button{width:260px;justify-content:flex-start}.related-actions .primary{justify-content:center;height:46px}
+.related-grid{margin-top:41px}
+.related-card{border-color:var(--jg-border);border-radius:14px;box-shadow:var(--jg-shadow)}
+.related-card>.badge{background:var(--jg-ice);color:var(--jg-indigo)}
+.related-card h2,.related-card h3{color:var(--jg-navy)}
+.related-card .job-description,.review-note{color:var(--jg-text-muted)}
+.related-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
+.related-card{display:flex;flex-direction:column;min-width:0;height:auto;min-height:480px}
+.related-card .description{max-width:none}
+.related-card h3,.related-card h3.reason,.related-card .job-description{position:static;margin-top:20px}
+.related-card .job-description{margin-top:10px;line-height:1.7}
+.recommendation-reason{margin:10px 0 24px;font-size:15px;line-height:1.7;color:var(--jg-text-muted)}
+.related-card h2,.related-card p{overflow-wrap:anywhere}
+.related-card .button{position:static;width:100%;margin-top:auto;justify-content:center;text-align:center}
+@media(max-width:1000px){.related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.related-grid{grid-template-columns:minmax(0,1fr)}.related-actions{flex-wrap:wrap;gap:12px}.related-actions .button{width:100%;justify-content:center}}

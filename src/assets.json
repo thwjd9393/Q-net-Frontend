@@ -1,0 +1,70 @@
+{
+  "main": {
+    "img": "/assets/4adef7ed-0ac2-4580-b2ee-5e7439ad66ae.svg",
+    "imgVector": "/assets/de7a06e8-3c53-403e-a019-f40e2e9df0eb.svg",
+    "imgVector1": "/assets/7f05248e-b062-4210-b524-066c3ab627a6.svg",
+    "imgVector2": "/assets/67dd4b16-7b5c-4513-9adc-dd6da462e477.svg",
+    "imgVector3": "/assets/48c6ea39-47fe-489a-aa00-da8b43d83144.svg",
+    "imgBg": "/assets/92df3dcd-4936-4431-bcba-ba37fc2f9b24.svg",
+    "imgVector4": "/assets/63dd0ef5-dd9e-4eb0-aa3b-d20fd53dc956.svg",
+    "imgVector5": "/assets/82defff8-3d08-48b9-adc0-e56f15f19fd1.svg",
+    "imgVector6": "/assets/ed25d55f-e508-4116-951d-0b0ff7b51052.svg",
+    "imgVector7": "/assets/43e35154-b95e-4a40-b805-0d32f7ee9ed9.svg",
+    "imgVector8": "/assets/c7416fe6-a765-4240-a839-2a2192145406.svg",
+    "imgVector9": "/assets/6f68f9c0-6adb-4d61-8859-93e927504885.svg",
+    "imgVector10": "/assets/e0767a9b-21e7-4e12-a4bd-ce7eda08a8ac.svg",
+    "imgVector11": "/assets/ed65a2fc-3f84-4b89-9f6a-173fe36535ce.svg",
+    "imgVector12": "/assets/88143244-e8e4-48b9-983d-ebcb926a5dae.svg"
+  },
+  "12:1143": {
+    "imgVector": "/assets/56d22c49-0ccc-44f4-a0f0-b41389fd1f51.svg",
+    "imgVector1": "/assets/dbacadc4-306d-47c4-b1fe-3074a6fa6414.svg",
+    "imgVector2": "/assets/2ae98628-cb2a-46ae-9e28-4fee29a46503.svg",
+    "imgVector3": "/assets/61781f34-623d-4eda-b5e9-468b6f43519b.svg",
+    "imgVector4": "/assets/4ce4beef-7b0c-46dc-8a47-61f495e4b2dd.svg",
+    "imgVector5": "/assets/b5d2e5ba-0d9a-4806-89d9-9542f97a89c8.svg",
+    "imgVector6": "/assets/33720e5b-5e71-47a1-9e56-9481ff90b433.svg",
+    "imgVector7": "/assets/cd6e36d2-7ecb-46a4-82f7-f4e0dc62fa43.svg",
+    "imgVector8": "/assets/1223294c-837d-4343-ba42-99d530da4ec0.svg",
+    "imgVector9": "/assets/15b8a027-da2c-44be-83b7-e50607c87d20.svg",
+    "imgVector10": "/assets/55e16668-ea2c-419c-986d-8481ad956328.svg"
+  },
+  "12:1290": {
+    "imgVector": "/assets/79f47a21-9a93-41ef-85f0-5c3a8357d1b8.svg",
+    "imgVector1": "/assets/30ba676c-758e-4b91-bd89-88b51358c887.svg",
+    "imgVector2": "/assets/53e80af5-4f93-4fb8-b085-027b00278bdb.svg",
+    "imgVector3": "/assets/48d3f1c4-ab9b-4ace-89de-c80f485aac9f.svg",
+    "imgVector4": "/assets/e8feffab-e933-497a-92f8-9284ac199682.svg",
+    "imgVector5": "/assets/81d2b887-343f-41e0-b45d-3d09c81e6cb9.svg",
+    "imgVector6": "/assets/adbb8664-d0e0-40a6-8d74-82541d977503.svg",
+    "imgVector7": "/assets/5695181b-94ab-42ac-bf34-1de80f5ce87d.svg",
+    "imgVector8": "/assets/d8a866a8-9089-4795-8090-d9ab3346f7bb.svg",
+    "imgVector9": "/assets/da2f0e73-105f-4313-8659-d0d2f5db5c9c.svg"
+  },
+  "12:1410": {
+    "imgIconChevron": "/assets/689125b5-4083-4a8e-ae09-67c15c360b3f.svg",
+    "imgIconHeart": "/assets/7d5e0824-c523-4e59-af9f-c12252a652b3.svg",
+    "imgIconLink": "/assets/b5611a49-d998-443e-985e-db3d5b4b41f2.svg",
+    "imgIconShare": "/assets/bad0ddce-4f31-4635-a45b-9f4cc629a1c7.svg",
+    "imgIconBook": "/assets/9f745efb-8707-444a-a4fa-4f99a96a79c3.svg",
+    "imgIconMedal": "/assets/ae00bd51-c3ec-478a-9269-263f1cdd67c1.svg",
+    "imgIconCoin": "/assets/a4113653-a80a-44ed-846e-08a00b8f7d84.svg",
+    "imgIconCalendar": "/assets/4947c4f5-5d4d-497a-a3ae-5109a33ec0fb.svg",
+    "imgEllipse": "/assets/afb9505f-7ab2-4e6b-a0fa-d2ee53096536.svg",
+    "imgEllipse1": "/assets/32c6aca2-1651-4aee-bea6-7b219a92499c.svg",
+    "imgIconCalendar1": "/assets/bc928b16-b1e0-4c06-8d2d-2d330a3c8095.svg",
+    "imgEllipse2": "/assets/77cca917-f9fa-40f9-ba7c-cc37f47542ed.svg",
+    "imgIconChevron1": "/assets/0f73ad9d-9e5e-47ee-81c2-5d87632e751c.svg",
+    "imgEllipse3": "/assets/89576d99-90e3-42ca-8e3a-8fe741cb77a3.svg",
+    "imgEllipse4": "/assets/4b0c4e86-fafc-45b2-8395-ff73cdb18a91.svg",
+    "imgIconCalendar2": "/assets/b2a1197b-13b4-490f-975b-e548d9284498.svg",
+    "imgIconBulb": "/assets/c93fe610-2b13-4f61-b2f7-1afdf1cbff18.svg",
+    "imgIconChart": "/assets/f05f3a11-476c-49fc-8f67-4f66d72a9350.svg",
+    "imgIconBrief": "/assets/2038bc6c-27a8-4192-99eb-dd5abebdc938.svg",
+    "imgIconInfo": "/assets/9729c06c-5705-4156-979b-a427936ab9c6.svg"
+  },
+  "12:1964": {
+    "img": "/assets/2b670a5e-5e54-422c-9bfe-791e2022cafc.svg",
+    "imgMypage": "/assets/c65ca569-f3f6-4fe8-a641-8c2a6235111c.svg"
+  }
+}

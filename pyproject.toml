@@ -1,0 +1,17 @@
+[project]
+name = "q-net-frontend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "thwjd9393", email = "thwjd9393@naver.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+q-net-frontend = "q_net_frontend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
