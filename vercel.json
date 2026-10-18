@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/enter", "destination": "/index.html" }
+  ]
+}

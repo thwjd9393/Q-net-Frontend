@@ -19,6 +19,7 @@ import { toggleFavorite as updateFavorites, type FavoriteCertificate, type Favor
 import { initialProfile } from './api/profile';
 import type { RecommendationsResponse } from './api/recommendations';
 import { useStored } from './api/storage';
+import EnterGate from './pages/EnterGate';
 import Calendar from './pages/Calendar';
 import Detail from './pages/Detail';
 import Favorites from './pages/Favorites';
@@ -64,7 +65,7 @@ function route(): Page {
   return pages.includes(path as Page) ? (path as Page) : 'home';
 }
 
-export default function App() {
+function MainApp() {
   const [page, setPage] = useState<Page>(route);
   const [logged, setLogged] = useState(() => Boolean(getAccessToken()));
   const [selected, setSelected] = useStored('selected', certificates[0].name);
@@ -321,5 +322,13 @@ export default function App() {
         )}
       </div>
     </AppContextProvider>
+  );
+}
+
+export default function App() {
+  return (
+    <EnterGate>
+      <MainApp />
+    </EnterGate>
   );
 }
