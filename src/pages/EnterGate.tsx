@@ -106,6 +106,12 @@ export default function EnterGate({ children }: { children: ReactNode }) {
         <h1 style={{ margin: '0 0 12px', color: '#0c1b4d' }}>
           자격잇다
         </h1>
+        <p style={{ marginBottom: 12, fontSize: 18, color: '#0c1b4d' }}>
+          <strong>내 다음 자격, 자격잇다</strong>
+        </p>
+        <p style={{ marginBottom: 24, fontSize: 14, lineHeight: 1.7, color: '#52617d' }}>
+          나에게 맞는 국가자격증을 찾고, 시험정보와 접수 일정을 확인하세요. 선택한 시험 일정은 Google Calendar에 등록할 수 있어요.
+        </p>
         <p style={{ marginBottom: 24 }}>
           입장 비밀번호를 입력해주세요.
         </p>
