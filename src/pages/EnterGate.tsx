@@ -160,6 +160,7 @@ export default function EnterGate({ children }: { children: ReactNode }) {
         </button>
         <nav className="entry-legal-links" aria-label="서비스 정책">
           <a href="/privacy.html">개인정보처리방침</a>
+          <a href="/google5c0b4520e20ab76e.html">Google 사이트 소유권 확인</a>
           <a href="/terms.html">서비스 이용약관</a>
         </nav>
       </form>

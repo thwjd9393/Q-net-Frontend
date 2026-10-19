@@ -7,6 +7,7 @@ export default function LegalDocument({ title, children }: { title: string; chil
       <nav className="legal-nav" aria-label="약관 및 서비스 이동">
         <a href="/enter">자격잇다로 돌아가기</a>
         <a href="/privacy.html">개인정보처리방침</a>
+        <a href="/google5c0b4520e20ab76e.html">Google 사이트 소유권 확인</a>
         <a href="/terms.html">서비스 이용약관</a>
       </nav>
       <article className="legal-document">
