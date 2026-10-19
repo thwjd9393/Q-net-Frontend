@@ -34,7 +34,7 @@ export default function EnterGate({ children }: { children: ReactNode }) {
   const [error, setError] = useState('');
 
   const allowed = hasEntered();
-  const isEnter = location.pathname.replace(/\/+$/, '') === '/enter';
+  const isEnter = ['/enter', '/EnterDate.html'].includes(location.pathname.replace(/\/+$/, ''));
 
   useEffect(() => {
     if (!allowed && !isEnter) {
@@ -158,6 +158,10 @@ export default function EnterGate({ children }: { children: ReactNode }) {
         >
           입장하기
         </button>
+        <nav className="entry-legal-links" aria-label="서비스 정책">
+          <a href="/privacy.html">개인정보처리방침</a>
+          <a href="/terms.html">서비스 이용약관</a>
+        </nav>
       </form>
     </main>
   );

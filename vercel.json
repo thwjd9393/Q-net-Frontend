@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/enter", "destination": "/index.html" }
+    { "source": "/enter", "destination": "/index.html" },
+    { "source": "/EnterDate.html", "destination": "/index.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/terms", "destination": "/terms.html" }
   ]
 }

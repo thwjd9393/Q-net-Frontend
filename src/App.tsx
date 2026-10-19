@@ -29,6 +29,8 @@ import Mypage from './pages/Mypage';
 import Profile from './pages/Profile';
 import Recommendations from './pages/Recommendations';
 import Related from './pages/Related';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 import { Header } from './components/Header';
 import CalendarRegistrationDialog, { CALENDAR_OAUTH_PENDING, CALENDAR_CONNECTED_UNTIL } from './components/CalendarRegistrationDialog';
 import { completeCalendarAuthorization, type CalendarRegistrationResult } from './api/googleCalendar';
@@ -326,6 +328,11 @@ function MainApp() {
 }
 
 export default function App() {
+  // 공개 문서는 입장 확인이나 앱의 인증·데이터 요청 없이 표시합니다.
+  const publicPath = location.pathname.replace(/\/+$/, '').replace(/\.html$/, '');
+  if (publicPath === '/privacy') return <Privacy />;
+  if (publicPath === '/terms') return <Terms />;
+
   return (
     <EnterGate>
       <MainApp />
